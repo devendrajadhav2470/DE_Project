@@ -1,0 +1,33 @@
+.below-video-container {
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.video-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.like-button,
+.dislike-button,
+.save-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #606060;
+}
+
+.like-button:hover,
+.dislike-button:hover,
+.save-button:hover {
+  color: #4285f4; /* Change to your preferred hover color */
+}

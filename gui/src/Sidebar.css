@@ -1,0 +1,51 @@
+/* Sidebar.css */
+
+.sidebar {
+  height: 100vh;
+  /* height: 599px; */
+  width: 250px;
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  position: fixed;
+  background-color: #111;
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-right: 10px;
+  /* font-family: 'Ysabeau Office', sans-serif; */
+}
+.half-hidden-sidebar {
+  height: 100vh;
+  /* height: 599px; */
+  /* width: 250px; */
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  position: fixed;
+  background-color: #111;
+  padding-top: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-right: 10px;
+}
+
+.sidebar h2 {
+  color: white;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 8px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sidebar li:hover {
+  background-color: #555;
+}

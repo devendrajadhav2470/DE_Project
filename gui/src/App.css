@@ -1,0 +1,15 @@
+input:focus {
+  border: darkorchid;
+}
+body {
+  /* background-color: #050505; */
+  /* Adjust the hex color codes as needed */
+  margin: 0;
+  padding: 0;
+}
+.search-icon {
+  color: #70757a;
+}
+.search-icon:hover {
+  color: #495fa6;
+}
